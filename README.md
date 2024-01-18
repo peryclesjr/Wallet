@@ -6,9 +6,9 @@ I created this project to improve my abilities in Go Lang. For this, I created a
 The concept of the project is demonstrated below, in two pictures created using C4 model, PlantUML.
 
 
-![Context Diagram](images/diagram_context.jpg)
+![Context Diagram](https://github.com/peryclesjr/Wallet/blob/main/diagrams/diagram_context.jpg)
 
 
-![Container Diagram](images/diagram_container.jpg)
+![Container Diagram](https://github.com/peryclesjr/Wallet/blob/main/diagrams/diagram_containers.jpg)
 
 
