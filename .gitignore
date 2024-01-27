@@ -1,0 +1,65 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Folder for Go workspace and compiled objects
+bin/
+pkg/
+
+# Dependency directories (remove the line below if you're using Go modules)
+vendor/
+
+# VSCode folders and settings
+.vscode/
+*.code-workspace
+
+# History files
+.ghistory
+
+# Compiled Go source files
+*.o
+*.a
+
+# Compiled Go binaries
+*.exe
+/main
+
+# Ignore the Go get binary
+/go
+
+# Go Module cache
+go.mod
+go.sum
+
+# Ignore auto-generated files
+*_gen.go
+*_gen_test.go
+
+# Ignore profiling files
+cpu.out
+mem.out
+
+# Ignore IDE-specific files and directories
+.idea/
+
+# Ignore macOS-specific files and directories
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore other OS generated files
+Thumbs.db
+Desktop.ini
