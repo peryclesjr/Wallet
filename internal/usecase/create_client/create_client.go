@@ -22,9 +22,9 @@ type CreateClientUseCase struct {
 	ClientRepository repository.ClientRepository
 }
 
-func NewCreateClientUseCase(lientRepository repository.ClientRepository) *CreateClientUseCase {
+func NewCreateClientUseCase(clientRepository repository.ClientRepository) *CreateClientUseCase {
 	return &CreateClientUseCase{
-		ClientRepository: lientRepository,
+		ClientRepository: clientRepository,
 	}
 
 }
