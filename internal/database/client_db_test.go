@@ -20,7 +20,6 @@ func (s *ClientDBTestSuite) SetupSuite() {
 	s.Nil(err)
 	s.db = db
 
-	_, err = s.db.Exec("CREATE TABLE clients (id varchar(255), name varchar(255), email varchar(255), created_at date)")
 	s.clientDB = NewClientDB(db)
 
 }
